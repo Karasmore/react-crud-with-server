@@ -6,7 +6,7 @@ var logger = require('morgan');
 const cors = require("cors");
 const mongoose = require('mongoose');
 mongoose
-.connect('')
+.connect('1')
 .then(() => console.log("Database connected"))
 .catch((err) => console.log(err));
 
